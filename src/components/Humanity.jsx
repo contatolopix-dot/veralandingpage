@@ -43,7 +43,7 @@ const Humanity = () => {
                 Acredito que o processo de comprar ou vender uma casa não se resume apenas a tijolos e contratos. Trata-se de vidas, de sonhos e da segurança que procuramos para quem mais amamos.
               </p>
               <p>
-                Como consultora independente e mãe de dois, entendo perfeitamente o peso de cada decisão e os desafios que o mercado apresenta. Posiciono-me ao lado do cliente de forma frontal e isolada — em mim encontra um atendimento exclusivo e concentrado, não um serviço disperso.
+                Como consultora independente e mãe de dois, entendo perfeitamente o peso de cada decisão e os desafios que o mercado apresenta. Atuo junto do cliente de forma frontal e isolada — em mim encontra um atendimento exclusivo e concentrado, não um serviço disperso.
               </p>
               <p>
                 Coloco o meu coração em cada angariação. Entrego a minha dedicação total a cada processo imobiliário individualmente, para que tenha os melhores resultados, em tempo recorde, e com o máximo rigor legal.

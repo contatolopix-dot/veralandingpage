@@ -28,7 +28,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
-              Venda o seu imóvel com a segurança de quem conhece o mercado do Porto. Especialista em Angariação e Venda. 8 anos de experiência, comprromisso e dedicação.
+              Venda o seu imóvel com a segurança de quem conhece o mercado do Porto. Especialista em Angariação e Venda. 8 anos de experiência, compromisso e dedicação.
             </p>
             <div className="pt-4">
               <a
