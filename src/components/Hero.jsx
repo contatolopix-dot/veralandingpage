@@ -24,11 +24,11 @@ const Hero = () => {
             <h1 className="text-5xl md:text-6xl font-bold font-serif text-vera-bordeaux leading-tight">
               Venda o seu imóvel com quem <br />
               <span className="text-vera-gold italic font-light">
-                domina o mercado de Ermesinde.
+                domina o mercado do Porto.
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
-              Venda o seu imóvel com a segurança de quem conhece Ermesinde. Especialista em Angariação e Venda. 8 anos de experiência e segurança jurídica total.
+              Venda o seu imóvel com a segurança de quem conhece o mercado do Porto. Especialista em Angariação e Venda. 8 anos de experiência, comprromisso e dedicação.
             </p>
             <div className="pt-4">
               <a

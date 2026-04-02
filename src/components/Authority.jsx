@@ -16,7 +16,7 @@ const Authority = () => {
             <span className="w-12 h-px bg-vera-gold"></span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold font-serif text-vera-bordeaux leading-tight">
-            Autoridade em Ermesinde
+            Autoridade no Porto.
           </h2>
           <p className="text-xl text-[#1a1a1a] font-light">
             Anos de dedicação converteram-se em autoridade, confiança e no domínio absoluto do mercado imobiliário local.
@@ -60,7 +60,7 @@ const Authority = () => {
           {/* Text & Stats */}
           <div className="space-y-10 order-2 lg:order-1">
             <p className="text-lg text-[#1a1a1a] font-light leading-relaxed">
-              Vender um imóvel vai além de pendurar uma placa. Nós utilizamos táticas de alta performance para converter visitas num negócio fechado, enquanto os seus interesses estão legalmente protegidos em cada etapa.
+              Vender um imóvel vai além de pendurar uma placa. Nós utilizamos táticas de elevada eficácia para converter visitas num negócio fechado, enquanto os seus interesses estão legalmente protegidos em cada etapa.
             </p>
 
             <ul className="space-y-4">
@@ -74,7 +74,7 @@ const Authority = () => {
               </li>
               <li className="flex items-center space-x-3 text-[#1a1a1a]">
                 <CheckCircle2 className="text-vera-gold" size={24} />
-                <span className="font-medium text-lg">Assessoria dedicada em fecho de contratos vitais</span>
+                <span className="font-medium text-lg">Consultoria dedicada em fecho de contratos vitais</span>
               </li>
             </ul>
 
