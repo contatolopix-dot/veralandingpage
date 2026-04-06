@@ -27,13 +27,22 @@ const Hero = () => {
                 domina o mercado do Porto.
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
-              Venda o seu imóvel com a segurança de quem conhece o mercado do Porto. 
+
+            {/* Texto dividido em 3 parágrafos para melhor leitura */}
+            <div className="space-y-4"> 
+              <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
+                Venda o seu imóvel com a segurança de quem conhece o mercado do Porto.
+              </p>
               
-              Especialista em Angariação e Venda. 
+              <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
+                Especialista em Angariação e Venda.
+              </p>
               
-              8 anos de experiência, compromisso e dedicação.
-            </p>
+              <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
+                8 anos de experiência, compromisso e dedicação.
+              </p>
+            </div>
+
             <div className="pt-4">
               <a
                 href={whatsappLink}
@@ -49,19 +58,12 @@ const Hero = () => {
 
           {/* Video Mockup */}
           <div className="flex justify-center relative mt-12 lg:mt-0">
-            {/* Background decorative blob */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-vera-gold opacity-10 blur-3xl rounded-full pointer-events-none"></div>
 
-            {/* Smartphone Mockup Frame */}
             <div className="relative w-[300px] h-[600px] bg-black rounded-[3rem] border-[8px] border-black shadow-2xl shadow-vera-bordeaux/20 z-10 transform lg:rotate-2 hover:rotate-0 transition-transform duration-500 overflow-hidden">
-
-              {/* Inner container to ensure border radius adherence */}
               <div className="relative w-full h-full overflow-hidden rounded-[2.5rem] bg-black">
-
-                {/* Notch - Z-Index 50 to stay above video */}
                 <div className="absolute top-0 inset-x-0 h-6 bg-black rounded-b-3xl w-40 mx-auto z-50 pointer-events-none shadow-md"></div>
 
-                {/* Video Container */}
                 <video
                   ref={videoRef}
                   src="/Vera-reels.mov"
@@ -74,10 +76,8 @@ const Hero = () => {
                   O seu navegador não suporta vídeos HTML5.
                 </video>
 
-                {/* Overlay Gradient (Reels style subtle bottom shadow) */}
                 <div className="absolute bottom-0 inset-x-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent pointer-events-none z-20"></div>
 
-                {/* Audio Toggle Overlay */}
                 <button
                   onClick={toggleMute}
                   className="absolute bottom-6 right-4 z-40 bg-black/60 text-white p-3 rounded-full hover:bg-black/80 transition-colors shadow-xl backdrop-blur-md"

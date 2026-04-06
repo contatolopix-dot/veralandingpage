@@ -59,10 +59,16 @@ const Authority = () => {
 
           {/* Text & Stats */}
           <div className="space-y-10 order-2 lg:order-1">
-            <p className="text-lg text-[#1a1a1a] font-light leading-relaxed">
-              Vender um imóvel vai além de pendurar uma placa.
-              Nós utilizamos táticas de elevada eficácia para converter visitas num negócio fechado, enquanto os seus interesses estão legalmente protegidos em cada etapa.
-            </p>
+            
+            {/* Divisão em dois parágrafos com espaçamento controlado */}
+            <div className="space-y-4">
+              <p className="text-lg text-[#1a1a1a] font-light leading-relaxed">
+                Vender um imóvel exige muito mais do que colocar uma placa.
+              </p>
+              <p className="text-lg text-[#1a1a1a] font-light leading-relaxed">
+                Utilizamos táticas de elevada eficácia para converter visitas na <strong>concretização do negócio</strong>, enquanto os seus interesses estão legalmente protegidos em cada etapa.
+              </p>
+            </div>
 
             <ul className="space-y-4">
               <li className="flex items-center space-x-3 text-[#1a1a1a]">
@@ -85,7 +91,7 @@ const Authority = () => {
                   <Award size={40} />
                 </div>
                 <h4 className="text-3xl font-bold font-serif text-[#1a1a1a]">8+</h4>
-                <p className="text-sm font-medium text-[#1a1a1a] uppercase">Experiência de Mercado</p>
+                <p className="text-sm font-medium text-[#1a1a1a] uppercase">Anos de Experiência</p>
               </div>
               <div className="text-center space-y-2">
                 <div className="flex justify-center text-vera-bordeaux mb-4">
