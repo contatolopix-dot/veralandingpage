@@ -16,7 +16,7 @@ const Authority = () => {
             <span className="w-12 h-px bg-vera-gold"></span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold font-serif text-vera-bordeaux leading-tight">
-            Posicionamento no Porto.
+            Posicionamento em Valongo e arredores.
           </h2>
           <p className="text-xl text-[#1a1a1a] font-light">
             Anos de dedicação converteram-se em autoridade, confiança e no domínio absoluto do mercado imobiliário local.

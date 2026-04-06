@@ -24,14 +24,14 @@ const Hero = () => {
             <h1 className="text-5xl md:text-6xl font-bold font-serif text-vera-bordeaux leading-tight">
               Venda o seu imóvel com quem <br />
               <span className="text-vera-gold italic font-light">
-                domina o mercado do Porto.
+                domina o mercado de Valongo e arredores.
               </span>
             </h1>
 
             {/* Texto dividido em 3 parágrafos para melhor leitura */}
             <div className="space-y-4"> 
               <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
-                Venda o seu imóvel com a segurança de quem conhece o mercado do Porto.
+                Venda o seu imóvel com a segurança de quem conhece o mercado de Valongo e arredores.
               </p>
               
               <p className="text-xl md:text-2xl text-[#1a1a1a] max-w-2xl font-light">
