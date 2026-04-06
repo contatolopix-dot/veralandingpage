@@ -16,7 +16,7 @@ const Authority = () => {
             <span className="w-12 h-px bg-vera-gold"></span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold font-serif text-vera-bordeaux leading-tight">
-            Autoridade no Porto.
+            Posicionamento no Porto.
           </h2>
           <p className="text-xl text-[#1a1a1a] font-light">
             Anos de dedicação converteram-se em autoridade, confiança e no domínio absoluto do mercado imobiliário local.
@@ -31,7 +31,7 @@ const Authority = () => {
             </div>
             <h3 className="text-2xl font-bold font-serif text-vera-bordeaux">Avaliação Gratuita</h3>
             <p className="text-[#1a1a1a] font-light">
-              Determinamos o valor real e competitivo da sua propriedade no mercado atual, garantindo que não perde dinheiro.
+              Determinamos o valor real e competitivo do seu imóvel no mercado atual, garantindo que não perde dinheiro.
             </p>
           </div>
           <div className="bg-vera-pearl p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-vera-gold/10 text-center space-y-4 transform md:-translate-y-4">
@@ -60,7 +60,8 @@ const Authority = () => {
           {/* Text & Stats */}
           <div className="space-y-10 order-2 lg:order-1">
             <p className="text-lg text-[#1a1a1a] font-light leading-relaxed">
-              Vender um imóvel vai além de pendurar uma placa. Nós utilizamos táticas de elevada eficácia para converter visitas num negócio fechado, enquanto os seus interesses estão legalmente protegidos em cada etapa.
+              Vender um imóvel vai além de pendurar uma placa.
+              Nós utilizamos táticas de elevada eficácia para converter visitas num negócio fechado, enquanto os seus interesses estão legalmente protegidos em cada etapa.
             </p>
 
             <ul className="space-y-4">
